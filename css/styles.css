@@ -1,0 +1,16 @@
+body{
+    font-family: "Roboto";
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover,
+a:focus{
+    text-decoration: none;
+}
+
