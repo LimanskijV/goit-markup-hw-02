@@ -1,5 +1,6 @@
 body{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
 }
 
 ul{
@@ -14,3 +15,66 @@ a:focus{
     text-decoration: none;
 }
 
+/*Стили логотипа*/
+
+.logo-full, 
+.logo-web{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+}
+
+.logo-web {
+    color: #4D5AE5;
+}
+
+/*Навигация*/
+
+.navigation-list {
+}
+.navigation-list-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+
+/*Контакты*/
+
+.address-list {
+}
+
+.address-list-style {
+    line-weight: 1.5;
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+
+/*Hero banner*/
+
+.hero-banner {
+    background-color: #2E2F42;
+}
+.hero-banner-text {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF
+}
+
+.hero-banner-button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
