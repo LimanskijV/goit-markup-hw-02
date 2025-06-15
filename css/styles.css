@@ -129,7 +129,7 @@ a:focus{
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -193,9 +193,14 @@ a:focus{
 .logo-footer-full{
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+}
+
+.logo-footer-studio{
     color: #F4F4FD;
 }
 
