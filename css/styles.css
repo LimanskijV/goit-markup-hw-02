@@ -103,7 +103,7 @@ a:focus{
 
 .value {
 }
-.content {
+.content-title {
     color: #2e2f42;
 }
 .content-list {
@@ -132,10 +132,15 @@ a:focus{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 .team-list {
 }
 
+.team-list-item{
+    background-color: #FFFFFF;
+}
 .team-photo {
 }
 .team-name {
@@ -144,6 +149,7 @@ a:focus{
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 .team-position {
     font-weight: 400;
