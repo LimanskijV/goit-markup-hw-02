@@ -1,5 +1,5 @@
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Raleway", sans-serif;
     color: #2E2F42;
 }
 
@@ -33,8 +33,16 @@ a:focus{
 
 /*Навигация*/
 
-.navigation-list {
+.navigation-list{
 }
+
+.navigation-list-item:hover,
+.navigation-list-item:focus,
+.address-list-style:hover,
+.address-list-style:focus{
+    color: #404BBF;
+}
+
 .navigation-list-item {
     font-weight: 500;
     font-size: 16px;
@@ -70,6 +78,10 @@ a:focus{
     color: #FFFFFF
 }
 
+.hero-banner-button:hover,
+.hero-banner-button:focus{
+    background-color: #404BBF;
+}
 .hero-banner-button {
     background-color: #4D5AE5;
     font-weight: 500;
@@ -77,4 +89,112 @@ a:focus{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*Value*/
+
+.value {
+}
+.content {
+}
+.content-list {
+
+}
+.content-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.content-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.team-list {
+}
+
+.team-photo {
+}
+.team-name {
+    font-weight: 500;
+    font-size: 20px; 
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+/*Portfolio*/
+
+.portfolio {
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.portfolio-list {
+}
+. {
+}portfolio-image
+
+.portfolio-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.portfolio-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*Footer*/
+
+.footer{
+    background-color: #2E2F42;
+}
+
+.logo-footer-full{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
